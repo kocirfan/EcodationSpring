@@ -16,4 +16,9 @@
         <class>com.kocirfan.aop.interceptor.InterceptorYolKesiciAsilIs</class>
     </interceptors>
 
+   <!--<decorators>-->
+    <decorators>
+        <class>com.kocirfan.aop.decorator.EvDecorator</class>
+    </decorators>
+
 </beans>
