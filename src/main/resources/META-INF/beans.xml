@@ -5,8 +5,15 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
+    <!-- <alternatives>-->
     <alternatives>
         <class>com.kocirfan.alternative.Patron1</class>
         <!--<class>com.kocirfan.alternative.Patron2</class>-->
     </alternatives>
+
+    <!--<interceptors>-->
+    <interceptors>
+        <class>com.kocirfan.aop.interceptor.InterceptorYolKesiciAsilIs</class>
+    </interceptors>
+
 </beans>
